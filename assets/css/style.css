@@ -1,0 +1,13 @@
+/* ask about linking images into background from css */
+body {
+    background-image: url("./assets/images/Background Game.jpg");
+}
+
+.instruct {
+    background-color: maroon;
+    color:  aliceblue;
+}
+
+.gem {
+    text-align: center;
+}
