@@ -1,7 +1,6 @@
 /* ask about linking images into background from css */
 body {
     background-image: url("../images/crystalBackground.jpg");
-    background-repeat: no-repeat;
     width: 960px;
     height: 1300px;
 }
@@ -15,15 +14,16 @@ body {
 
 /* Body Content*/
 #instruct {
-
-    font-size:  18px;
+    font-size:  14px;
     color: greenyellow;
-    margin-right: 80px;
+    border: 200px;
+    margin-right: 500px;
 }
 
 #birdBox {
     float: left;
-    margin-right: 150px;
+    margin-right: 200px;
 }
+
 
 
