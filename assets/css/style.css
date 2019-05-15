@@ -1,13 +1,29 @@
 /* ask about linking images into background from css */
 body {
-    background-image: url("./assets/images/Background Game.jpg");
+    background-image: url("../images/crystalBackground.jpg");
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 1300px;
 }
 
-.instruct {
-    background-color: maroon;
-    color:  aliceblue;
-}
-
+/* Heading settings */
 .gem {
+    color: aliceblue;
+    border-color: whitesmoke;
     text-align: center;
 }
+
+/* Body Content*/
+#instruct {
+
+    font-size:  18px;
+    color: greenyellow;
+    margin-right: 80px;
+}
+
+#birdBox {
+    float: left;
+    margin-right: 150px;
+}
+
+
