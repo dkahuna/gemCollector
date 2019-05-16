@@ -43,8 +43,13 @@ body {
     float: left;
 }
 
-
-
+/* Karat Count */
+.current {
+    background-color: aliceblue;
+    float: left;
+    margin-left: 1%;
+    width: 33%;
+}
 
 
 
