@@ -13,17 +13,39 @@ body {
 }
 
 /* Body Content*/
-#instruct {
+#birdBox {
     font-size:  14px;
     color: greenyellow;
     border: 200px;
     margin-right: 500px;
-}
-
-#birdBox {
     float: left;
     margin-right: 200px;
 }
+
+/* Game Objective and Results */
+#goal {
+ background-color: white;
+ float: left; 
+ border: 75px;
+ width: 35%;
+ height: 13%;
+}
+
+#streaks {
+    float: left;
+    background-color: plum;
+    width: 15%;
+    height: 13%;
+}
+
+/* Images */ 
+.choices {
+    float: left;
+}
+
+
+
+
 
 
 
