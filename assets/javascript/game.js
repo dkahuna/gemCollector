@@ -7,8 +7,11 @@ function karats (){
     crystalVal.push(quest)
 };
 
-karats();
-karats();
-karats();
-karats();
-console.log(crystalVal)
+
+
+//$(".btn").on("click", karats())
+//console.log(crystalVal)
+
+$(".bear").on("click", function() {
+alert("Please Work")
+});
