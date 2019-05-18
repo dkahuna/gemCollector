@@ -1,45 +1,14 @@
-$(document).ready(function(){
-
-var total = Math.floor(Math.random() * 102 + 19);
-
+var crystalVal = []
+console.log(crystalVal)
 
 
+function karats (){
+    var quest = Math.floor(Math.random() * 102 + 19);
+    crystalVal.push(quest)
+};
 
-
-
-
-function(){
-    $("#goal").html(<b>total</b>
-console.log (total)
-        )};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-})
+karats();
+karats();
+karats();
+karats();
+console.log(crystalVal)
