@@ -5,7 +5,6 @@ let lost = 0;
 let crystalVal = 0;
 const quest = Math.floor(Math.random() * 102 + 19);
 
-
 //printing the goal of game
 $("#goal").text("KARATS: " + quest);
 

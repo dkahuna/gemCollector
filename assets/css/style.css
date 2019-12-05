@@ -1,8 +1,14 @@
-/* ask about linking images into background from css */
+
+
 body {
     background-image: url("../images/crystalBackground.jpg");
-    width: auto;
-    height: auto;
+   opacity: 0.7;
+    height: 150%;
+     background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    /* width: auto;
+    height: auto; */
 }
 
 /* Heading settings */
@@ -25,6 +31,7 @@ body {
 /* Game Objective and Results */
 #goal {
  background-color: white;
+ opacity: 0.5;
  float: left; 
  border: 75px;
  width: 35%;
@@ -47,14 +54,15 @@ body {
 
 /* Karat Count */
 #current {
-    background-color: aliceblue;
+    background-color: blue;
+    opacity: 0.5;
     float: left;
     margin-left: 1%;
     width: 33%;
 }
 
 #end {
-    background-color: white;
+    /* background-color: white; */
     float: left;
 }
 
