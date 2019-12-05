@@ -11,19 +11,17 @@ $("#goal").text("KARATS: " + quest);
 
 
 
-//function karats (){
-    //var quest = Math.floor(Math.random() * 102 + 19);
-   // crystalVal.push(quest)};
 
 
-//console.log (quest)
+
+
 
 
 
 // image values
 
 var unoBear = Math.floor(Math.random() * 12 + 1);
-$(".bear").on("click", function(){
+$(".blue").on("click", function(){
   
   crystalVal =  crystalVal + unoBear;
   $("#final").text(crystalVal);
@@ -74,7 +72,7 @@ $(".bear").on("click", function(){
   return reset ()
 }
      
-// cant get it not to count a loss after winning the game in order for it to start a new game again
+
 function reset () {
     quest = Math.floor(Math.random() * 102 + 19);
     $("#goal").text(quest);
@@ -88,16 +86,5 @@ function reset () {
   };
 
 
-   // alert("works" + crystalVal);
 
-
-//if (crystalVal === quest) {
-//    alert("winner");
-//}
-
-//else if (crystalVal>= quest ) {
-  //  alert("loser!");
-//}
-//$(".bear").on("click", function() {});
-    
   };
