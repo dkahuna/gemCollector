@@ -51,19 +51,6 @@ console.log (diamond);
   });
   console.log (ruby);
 
-//add value to the wins&losses
-
-  function referee () {
-      if (crystalVal === quest){
-          won = won+1;
-          $("#up").text("Wins: " + won);
-}   else if (crystalVal >quest){
-    lost = lost+1;
-    $("#down").text("Losses: " + lost);
-    reset ();
-  };
-};
-     
 // After each game is met, the game is needed to reset without refreshing the page
 function reset () {
   let quest = Math.floor(Math.random() * 102 + 19);
@@ -115,5 +102,23 @@ console.log(opal);
   });
 console.log(ruby);
   };
+
+
+
+//add value to the wins&losses
+
+  function referee () {
+      if (crystalVal === quest){
+          won = won+1;
+          $("#up").text("Wins: " + won);
+          reset();
+}   else if (crystalVal >quest){
+    lost = lost+1;
+    $("#down").text("Losses: " + lost);
+    reset ();
+  };
+};
+     
+
 
 });
