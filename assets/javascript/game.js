@@ -11,44 +11,44 @@ $("#goal").text("KARATS: " + quest);
 
 // image values
 
-var unoBear = Math.floor(Math.random() * 12 + 1);
+let diamond = Math.floor(Math.random() * 12 + 1);
 $(".blueGem").on("click", function(){
   
-  crystalVal =  crystalVal + unoBear;
+  crystalVal =  crystalVal + diamond;
   $("#final").text(crystalVal);
   referee ()
 
-  console.log (unoBear)
+  console.log (diamond)
 })
 
-  var unoBuffalo = Math.floor(Math.random() * 12 + 1);
+  let emerald = Math.floor(Math.random() * 12 + 1);
   $(".greenGem").on("click", function(){
     
-    crystalVal =  crystalVal + unoBuffalo;
+    crystalVal =  crystalVal + emerald;
     $("#final").text(crystalVal);
     referee ()
  
-    console.log (unoBuffalo)
+    console.log (emerald)
   })
 
-  var unoWolf = Math.floor(Math.random() * 12 + 1);
+  let opal = Math.floor(Math.random() * 12 + 1);
   $(".purpGem").on("click", function(){
     
-    crystalVal =  crystalVal + unoWolf;
+    crystalVal =  crystalVal + opal;
     $("#final").text(crystalVal);
     referee ()
    
-    console.log (unoWolf)
+    console.log (opal)
   })
   
-  var unoTrex = Math.floor(Math.random() * 12 + 1);
+  let ruby = Math.floor(Math.random() * 12 + 1);
   $(".rubyGem").on("click", function(){
     
-    crystalVal =  crystalVal + unoTrex;
+    crystalVal =  crystalVal + ruby;
     $("#final").text(crystalVal);
     referee ()
   
-    console.log (unoTrex)
+    console.log (ruby)
   })
 
 //add value to the wins&losses
