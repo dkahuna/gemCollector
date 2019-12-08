@@ -60,15 +60,15 @@ console.log (diamond);
 }   else if (crystalVal >quest){
     lost = lost+1;
     $("#down").text("Losses: " + lost);
-  
     reset ();
   };
 };
      
 // After each game is met, the game is needed to reset without refreshing the page
 function reset () {
+  let quest = Math.floor(Math.random() * 102 + 19);
+  crystalVal = 0;
   $("#goal").text("KARATS: " + quest);
-    crystalVal = 0;
     $("#final").text(crystalVal);
  
 
