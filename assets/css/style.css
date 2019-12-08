@@ -1,0 +1,5 @@
+.choices :hover {
+    cursor: zoom-in;
+    border-radius: 50%;
+    border-color: black;
+}
