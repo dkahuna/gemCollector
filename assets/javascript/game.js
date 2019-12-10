@@ -14,7 +14,7 @@ $("#goal").text("KARATS: " + quest);
 let diamond = Math.floor(Math.random() * 12 + 1);
 $(".blueGem").on("click", function(){
   
-  crystalVal =  crystalVal + diamond;
+ crystalVal = crystalVal + diamond;
   $("#final").text(crystalVal);
   referee ();
 
@@ -29,7 +29,7 @@ console.log (diamond);
     referee ();
  
   });
-  console.log (emerald);
+  // console.log (emerald);
 
   let opal = Math.floor(Math.random() * 12 + 1);
   $(".purpGem").on("click", function(){
@@ -39,7 +39,7 @@ console.log (diamond);
     referee ();
    
   });
-  console.log (opal);
+  // console.log (opal);
   
   let ruby = Math.floor(Math.random() * 12 + 1);
   $(".rubyGem").on("click", function(){
@@ -49,12 +49,12 @@ console.log (diamond);
     referee ();
   
   });
-  console.log (ruby);
+  // console.log (ruby);
 
 // After each game is met, the game is needed to reset without refreshing the page
 function reset () {
-  let quest = Math.floor(Math.random() * 102 + 19);
   crystalVal = 0;
+  let quest = Math.floor(Math.random() * 102 + 19);
   $("#goal").text("KARATS: " + quest);
     $("#final").text(crystalVal);
  
@@ -112,7 +112,7 @@ console.log(ruby);
           won = won+1;
           $("#up").text("Wins: " + won);
           reset();
-}   else if (crystalVal >quest){
+} else if (crystalVal >quest){
     lost = lost+1;
     $("#down").text("Losses: " + lost);
     reset ();
