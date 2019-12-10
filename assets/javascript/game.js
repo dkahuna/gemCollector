@@ -11,7 +11,7 @@ $("#goal").text("KARATS: " + quest);
 
 // image values
 
-let diamond = Math.floor(Math.random() * 12 + 1);
+let diamond = Math.floor(Math.random() * 12) + 1;
 $(".blueGem").on("click", function(){
   
  crystalVal = crystalVal + diamond;
@@ -21,7 +21,7 @@ $(".blueGem").on("click", function(){
 });
 console.log (diamond);
 
-  let emerald = Math.floor(Math.random() * 12 + 1);
+  let emerald = Math.floor(Math.random() * 12) + 1;
   $(".greenGem").on("click", function(){
     
     crystalVal =  crystalVal + emerald;
@@ -31,7 +31,7 @@ console.log (diamond);
   });
   // console.log (emerald);
 
-  let opal = Math.floor(Math.random() * 12 + 1);
+  let opal = Math.floor(Math.random() * 12) + 1;
   $(".purpGem").on("click", function(){
     
     crystalVal =  crystalVal + opal;
@@ -41,7 +41,7 @@ console.log (diamond);
   });
   // console.log (opal);
   
-  let ruby = Math.floor(Math.random() * 12 + 1);
+  let ruby = Math.floor(Math.random() * 12) + 1;
   $(".rubyGem").on("click", function(){
     
     crystalVal =  crystalVal + ruby;
@@ -53,14 +53,15 @@ console.log (diamond);
 
 // After each game is met, the game is needed to reset without refreshing the page
 function reset () {
+
   crystalVal = 0;
-  let quest = Math.floor(Math.random() * 102 + 19);
+  let quest = Math.floor(Math.random() * 102) + 19;
   $("#goal").text("KARATS: " + quest);
     $("#final").text(crystalVal);
  
 
     // resetting value to the images after each game
-    let diamond = Math.floor(Math.random() * 12 + 1);
+    let diamond = Math.floor(Math.random() * 12) + 1;
 $(".blueGem").on("click", function(){
   
   crystalVal =  crystalVal + diamond;
@@ -70,7 +71,7 @@ $(".blueGem").on("click", function(){
 });
 console.log(diamond);
 
-let emerald = Math.floor(Math.random() * 12 + 1);
+let emerald = Math.floor(Math.random() * 12) + 1;
   $(".greenGem").on("click", function(){
     
     crystalVal =  crystalVal + emerald;
@@ -81,7 +82,7 @@ let emerald = Math.floor(Math.random() * 12 + 1);
 console.log(emerald);
 
 
-let opal = Math.floor(Math.random() * 12 + 1);
+let opal = Math.floor(Math.random() * 12) + 1;
   $(".purpGem").on("click", function(){
     
     crystalVal =  crystalVal + opal;
@@ -92,7 +93,7 @@ let opal = Math.floor(Math.random() * 12 + 1);
 console.log(opal);
 
 
-  let ruby = Math.floor(Math.random() * 12 + 1);
+  let ruby = Math.floor(Math.random() * 12) + 1;
   $(".rubyGem").on("click", function(){
     
     crystalVal =  crystalVal + ruby;
