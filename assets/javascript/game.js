@@ -113,8 +113,8 @@ console.log(ruby);
           won = won+1;
           $("#up").text("Wins: " + won);
           reset();
-      }
-// } else if (crystalVal >quest){
+      };
+// } else if (crystalVal >quest){   *CUT DOWN A CODE LINE*
    { lost = lost+1;
     $("#down").text("Losses: " + lost);
     reset ();
